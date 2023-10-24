@@ -1,11 +1,9 @@
 package com.cosmah.learnspringframework;
 
 import com.cosmah.learnspringframework.game.GameRunner;
-import com.cosmah.learnspringframework.game.MarioGame;
 import com.cosmah.learnspringframework.game.PacmanGame;
-import com.cosmah.learnspringframework.game.superContraGame;
 
-public class AppGamingBasicJava {
+public class App01GamingBasicJava {
     public static void main(String[] args){
 
 //        var game = new MarioGame();
