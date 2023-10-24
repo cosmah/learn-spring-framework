@@ -6,6 +6,7 @@ public class GameRunner {
 
     //constructor
     public GameRunner(GamingConsole game) {
+
         this.game = game;
     }
     public void run() {
