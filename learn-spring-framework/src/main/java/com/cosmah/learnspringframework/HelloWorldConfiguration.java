@@ -43,8 +43,13 @@ public class HelloWorldConfiguration {
 
     @Bean
     public Person person(){
-        var person = new Person("Ravi" ,20);
+        var person = new Person("Ravi" ,30);
 
         return person;
+    }
+
+    @Bean
+    public Person person2MethodCall(){
+        return new Person(name(),age());
     }
 }
